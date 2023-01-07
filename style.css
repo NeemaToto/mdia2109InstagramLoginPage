@@ -11,16 +11,6 @@ body {
     overflow: hidden;
 }
 
-element {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow-y: none;
-}
-
-element::-webkit-scrollbar {
-    display: none;
-}
-
 /*Body content starts here*/
 .body-container {
     display: flex;
@@ -113,7 +103,7 @@ element::-webkit-scrollbar {
     border: none;
     color: white;
     background-color: #47afff;
-    font-family: 'Lato', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 650;
     border-radius: 8px;
     padding: 7px 16px;

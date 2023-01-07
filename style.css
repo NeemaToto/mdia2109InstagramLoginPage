@@ -11,6 +11,8 @@ body {
     overflow: hidden;
 }
 
+
+
 /*Body content starts here*/
 .body-container {
     display: flex;
@@ -268,5 +270,8 @@ footer {
     .body-container {
         margin-top: 0;
     }
-
+    
+    body { 
+        overflow:scroll;
+    }
 }
